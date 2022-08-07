@@ -1,0 +1,104 @@
+ class MethodSignature // class name
+    {
+
+     1)   public  int DisplaySum (int num1, int num2) // 1
+        {
+           return num1 + num2;  
+        }
+
+
+
+     2)   public double Average(double numOne, double numTwo, double numThree, double numFour, double numFive) // 
+        {
+            return (numOne + numTwo + numThree + numFour + numFive) / 5;
+        }
+
+
+
+     3)  public int RandomSum (int num1, int num2) // 3
+        {
+            Random random = new Random();
+
+            num1 = random.Next(num1);
+            num2 = random.Next(num2);
+
+            return num1 + num2;
+        }
+
+
+
+
+     4)   public int Division (int num1, int num2, int num3) // 4
+        {
+            int result = 0;
+
+            if (num1 + num2 + num3 % 3 == 0)
+            {
+                result = num1 + num2 + num3 / 3;
+
+                return true.CompareTo(result);
+            }
+            return result;
+        }
+
+
+
+     5)  public string StringCompare( string Text = "Hello", string Text2 = "Hi") // 5
+        {
+            return Text2;
+        }
+
+
+
+     6)  public int[] Array(double[] array) // 6
+        {
+            array[0] = 5;
+            array[1] = 10;
+            array[2] = 20;
+
+            return Array(array[2].CompareTo(Array));
+
+         }
+
+
+     7)   public int BigArray (int[] bigArray) // 7
+        {
+
+            bigArray = new int[50];
+
+            return BigArray(bigArray);
+        }
+
+
+    8)    public bool Boolean(bool var1, bool var2) // 8
+        {
+            if (var1 == var2)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
+    9)   public int product (int val1, double val2) // 9
+        {
+            return val1  & val2.CompareTo(val1);
+        }
+
+
+   10)     public int twoArray(int[,] array) // 10
+        {
+            array = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+
+
+            int avg = (1 + 2 + 3 + 4 + 5 + 6) / 6;
+
+            return avg;
+            
+        }
+       
+
+} // For Class
